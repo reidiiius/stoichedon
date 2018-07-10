@@ -33,6 +33,12 @@ section.magellan ul a:hover {
   text-decoration: underline;
   color: Peru;
 }
+section.stoichedon hr {
+  margin-top: 1em;
+  border: 0;
+  height: 2px;
+  background-color: Tan;
+}
 section.stoichedon table.rectarray {
   display: inline-block;
   margin: 1% auto 0 auto;
@@ -43,6 +49,7 @@ section.stoichedon table.rectarray {
 }
 section.stoichedon table.rectarray th {
   height: 1.2em;
+  overflow: hidden;
   font-weight: normal;
   font-size: 0.8em;
   color: Olive;
